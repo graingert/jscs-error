@@ -1,6 +1,4 @@
 {
     "preset": "airbnb",
-    "excludeFiles": [
-        "src/webapp/vendor/**"
-    ]
+    "fileExtensions": ['.es2015.js']
 }
