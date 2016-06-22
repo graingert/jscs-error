@@ -1,14 +1,13 @@
 ```
 $ npm install
 $ ./node_modules/.bin/jscs src
-Unexpected character '#' (3:4) at src/old.js :
-     1 |sdlkfjhskldjads
-     2 |asdf
-     3 |asdf#
-------------^
-     4 |asdf
-     5 |asdf
+Expected token value ":" but = found at src/all.es :
+     1 |function constructor(args) {
+--------^
+     2 |  const { response = 1 } = args;
+     3 |}
 
 
 1 code style error found.
+
 ```

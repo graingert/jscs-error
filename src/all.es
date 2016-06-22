@@ -1,14 +1,3 @@
-// jscs:disable
-
-(function($){
-    
-    
-    function myfun(){
-    
-        
-        
-        
-        
-    }
-    
-});
+function constructor(args) {
+  const { response = 1 } = args;
+}

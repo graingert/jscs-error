@@ -185,9 +185,16 @@
       "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
     },
     "cst": {
-      "version": "0.3.0",
-      "from": "cst@>=0.3.0 <0.4.0",
-      "resolved": "https://registry.npmjs.org/cst/-/cst-0.3.0.tgz"
+      "version": "0.4.0",
+      "from": "cst@>=0.4.0 <0.5.0",
+      "resolved": "https://registry.npmjs.org/cst/-/cst-0.4.0.tgz",
+      "dependencies": {
+        "babylon": {
+          "version": "6.8.1",
+          "from": "babylon@>=6.8.1 <7.0.0",
+          "resolved": "https://registry.npmjs.org/babylon/-/babylon-6.8.1.tgz"
+        }
+      }
     },
     "cycle": {
       "version": "1.0.3",
@@ -270,6 +277,11 @@
       "version": "0.1.8",
       "from": "eyes@>=0.1.0 <0.2.0",
       "resolved": "https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
+    },
+    "fs.realpath": {
+      "version": "1.0.0",
+      "from": "fs.realpath@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
     },
     "glob": {
       "version": "5.0.15",
@@ -357,9 +369,9 @@
       "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.4.6.tgz"
     },
     "jscs": {
-      "version": "3.0.4",
-      "from": "jscs@3.0.4",
-      "resolved": "https://registry.npmjs.org/jscs/-/jscs-3.0.4.tgz"
+      "version": "3.0.5",
+      "from": "jscs@3.0.5",
+      "resolved": "https://registry.npmjs.org/jscs/-/jscs-3.0.5.tgz"
     },
     "jscs-jsdoc": {
       "version": "2.0.0",
@@ -397,9 +409,9 @@
       "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz"
     },
     "minimatch": {
-      "version": "3.0.0",
+      "version": "3.0.2",
       "from": "minimatch@>=3.0.0 <3.1.0",
-      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.2.tgz"
     },
     "minimist": {
       "version": "0.0.8",
@@ -529,9 +541,9 @@
       "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-2.5.2.tgz",
       "dependencies": {
         "glob": {
-          "version": "7.0.3",
+          "version": "7.0.5",
           "from": "glob@>=7.0.0 <8.0.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.3.tgz"
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.5.tgz"
         }
       }
     },
