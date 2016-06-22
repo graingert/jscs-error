@@ -1,3 +1,3 @@
-function constructor(args) {
-  const { response = 1 } = args;
+function a ({ foo = false, bar = null } = {}) {
+    console.log(bar);
 }

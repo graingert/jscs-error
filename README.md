@@ -2,12 +2,8 @@
 $ npm install
 $ ./node_modules/.bin/jscs src
 Expected token value ":" but = found at src/all.es :
-     1 |function constructor(args) {
+     1 |function a ({ foo = false, bar = null } = {}) {
 --------^
-     2 |  const { response = 1 } = args;
+     2 |    console.log(bar);
      3 |}
-
-
-1 code style error found.
-
 ```
